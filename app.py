@@ -1,6 +1,6 @@
 import numpy as np 
-def helloworld(x):
+def helloworld(x=20,y=10):
     print(x)
-helloworld(3)
+helloworld()
 
 print("its working")
